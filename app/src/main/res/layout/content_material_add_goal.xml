@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHeaderTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tvHeaderdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+
+
+                />
+
+
+            <EditText
+                android:id="@+id/etTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/add_goal_hint"
+                android:textSize="34sp"
+                />
+
+            <TextView
+                android:id="@+id/tvRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="34sp"
+
+
+                />
+
+            <View
+                android:id="@+id/view_horizontal_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/tvReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="34sp"
+
+
+                />
+
+            <View
+                android:id="@+id/view_horizontal_line_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary"
+                android:visibility="invisible" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+
+                >
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/ic_close" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/ic_brush" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+
+                    android:id="@+id/imageButtonTimeRange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/ic_clock" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+                <ImageButton
+
+                    android:id="@+id/imageButtonSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/ic_save" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorFont">#FFFFFF</color>
+    <color name="colorPrimaryDark">#47484b</color>
+    <color name="colorHeader">#924060</color>
+    <color name="colorAccent">#e5a508</color>
+    <color name="colorRating">#00ABBD</color>
+    <color name="colorMoreButton">#262840</color>
+    <color name="colorBookButton">#942F57</color>
+    <color name="colorAppleGreen">#5BC236</color>
+    <color name="darkBlue">#105AA7</color>
+    <color name="lightBlue">#9ac9fb</color>
+    <color name="colorWhiteFonts">#f5f7f4</color>
+    <color name="apple_red">#FF3B30</color>
+    <color name="apple_orange">#FF9500</color>
+    <color name="apple_yello">#FFCC00</color>
+    <color name="apple_green">#47484b</color>
+</resources>

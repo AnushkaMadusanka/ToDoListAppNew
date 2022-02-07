@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToDoMainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimaryDark"
+            android:minHeight="?attr/actionBarSize"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabIndicatorHeight="5dp"
+            app:tabPaddingBottom="-1dp"
+            app:tabPaddingEnd="-1dp"
+            app:tabPaddingStart="-1dp"
+            app:tabPaddingTop="-5dp"
+            app:tabSelectedTextColor="@color/colorAppleGreen"
+            app:tabTextAppearance="@style/MineCustomTabText"
+            app:tabTextColor="@color/colorPrimary"
+
+            />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/todo_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tab_layout" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_to_do_main" />
+
+
+</RelativeLayout>

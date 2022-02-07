@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TodolistFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <View
+        android:id="@+id/border_goals"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="14dp"
+        android:background="#d3d3d3" />
+
+    <EditText
+        android:id="@+id/todo_search"
+        android:layout_below="@id/border_goals"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:hint="@string/hint_search"
+        android:paddingBottom="10dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_achieving_goals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todo_search"
+        android:scrollbars="vertical" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_addNewToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+
+
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+
+</RelativeLayout>

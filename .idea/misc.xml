@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_add_to_do.xml" value="0.20018115942028986" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_material_add_goal.xml" value="0.20018115942028986" />
+        <entry key="app/src/main/res/layout/activity_to_do_main.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/content_material_add_goal.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/content_to_do_main.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/dialog_confirm.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/dialog_demo.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/dialog_demo_mission.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/dialog_save.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.20018115942028986" />
+        <entry key="app/src/main/res/layout/fragment_todolist.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/fragment_update_tasks.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/view_goallist_list_item.xml" value="0.13722826086956522" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
